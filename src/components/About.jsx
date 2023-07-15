@@ -2,28 +2,36 @@ import React from "react";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white">
-      <div className=" max-w-screen-lg p-4 mx-auto flex flex-col
-      justify-center w-full h-full">
-
+    <div
+      name="about"
+      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+    >
+      <div
+        className=" max-w-screen-lg p-4 mx-auto flex flex-col
+      justify-center w-full h-full"
+      >
         <div className="pb-8 ">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+            About
+          </p>
           <p className="text-xl mt-20">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
-            animi obcaecati id repellendus deserunt quasi accusantium voluptas
-            dolorum, facere, officiis veniam consequatur saepe! Itaque fugiat
-            nobis ipsum veritatis alias a atque eos cumque reprehenderit
-            pariatur? Libero tempora ullam vitae dicta! Maxime ratione nobis
-            magnam in provident earum minima similique sunt!
+            "Hello, my name is Bharat Patel and I am from Udaipur, Rajasthan,
+            India. I am a B.Tech student currently pursuing Computer Science at
+            PIET. With a solid academic background, having secured 87% and 92%
+            in my 12th and 10th exams respectively, I am deeply passionate about
+            web development. My experience and skills in this field include
+            proficiency in several programming languages and frameworks,
+            including HTML, CSS, JavaScript, and React. I have also completed
+            various web development projects, including a responsive website
+            that received recognition at a regional competition.
           </p>
           <br />
           <p className="text-xl">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id in odit
-            dolorem sint facere quis cumque error dolores libero inventore
-            repellendus maiores, officiis quo tempore cum nostrum enim sequi
-            distinctio magni exercitationem totam qui itaque rem. Harum, aut
-            doloremque quas beatae blanditiis eaque recusandae veniam quam illo
-            ad, explicabo earum?
+            In addition to my technical skills, I am a dedicated team player and
+            have excellent communication and problem-solving abilities. Outside
+            of my academic pursuits, I enjoy playing cricket and cooking. I am
+            excited about the opportunity to apply my skills and experience in a
+            dynamic and innovative work environment.
           </p>
         </div>
       </div>

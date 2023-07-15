@@ -1,62 +1,62 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+import portal from '../assets/portfolio/portal.jpg'
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import grocery from '../assets/portfolio/grocery.jpg'
+import registration from '../assets/portfolio/registration.jpg'
+import reactSmooth from '../assets/portfolio/scroll.png'
+import door from '../assets/portfolio/door.jpg'
 
 
 const Portfolio = () => {
     const portfolios = [
       {
         id: 1,
-        src: arrayDestruct,
+        src: grocery,
         link1:()=>{
-            window.open('https://linkedin.com', '_blank');
+            window.open('https://grocery-liard.vercel.app/', '_blank');
         },
         link2:()=>{
-            window.open('https://linkedin.com', '_blank');
+            window.open('https://github.com/Bharatpatel04/grocery', '_blank');
         }
       },
       {
         id: 2,
-        src: reactParallax,
+        src: portal,
         link1:()=>{
-            window.open('https://linkedin.com', '_blank');
+            window.open('https://bharatpatel045.000webhostapp.com/', '_blank');
         },
         link2:()=>{
-            window.open('https://linkedin.com', '_blank');
+            window.open('https://github.com/Bharatpatel04/portal-UIc', '_blank');
         }
       },
       {
         id: 3,
-        src: navbar,
+        src: registration,
         link1:()=>{
-            window.open('https://linkedin.com', '_blank');
+            window.open('https://registration-page-delta.vercel.app/', '_blank');
         },
         link2:()=>{
-            window.open('https://linkedin.com', '_blank');
+            window.open('https://github.com/Bharatpatel04/Registration-Page', '_blank');
         }
       },
       {
         id: 4,
         src: reactSmooth,
         link1:()=>{
-            window.open('https://linkedin.com', '_blank');
+            window.open('https://legendary-biscotti-4ec45b.netlify.app/', '_blank');
         },
         link2:()=>{
-            window.open('https://linkedin.com', '_blank');
+            window.open('https://github.com/Bharatpatel04/react-smoth-scroll', '_blank');
         }
       },
       {
         id: 5,
-        src: installNode,
+        src: door,
         link1:()=>{
-            window.open('https://linkedin.com', '_blank');
+            window.open('https://delivery-at-door.vercel.app/', '_blank');
         },
         link2:()=>{
-            window.open('https://linkedin.com', '_blank');
+            window.open('https://github.com/Bharatpatel04/Delivery-at-door', '_blank');
         }
       },
       {
